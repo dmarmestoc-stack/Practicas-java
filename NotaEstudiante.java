@@ -1,4 +1,4 @@
-public class ejercicio1 {
+public class NotaEstudiante {
     public static void main(String[] args) {
         double notaEstudiante= 3.2;
         if (notaEstudiante >= 3.0) {
