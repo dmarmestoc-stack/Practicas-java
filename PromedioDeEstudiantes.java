@@ -1,5 +1,6 @@
 public class PromedioDeEstudiantes{
     public static void main(String[] args){
+        final int TOTAL_ESTUDIANTES=15;
         final int EDAD_BASE=15;
         int edad[]=new int[15];
         int sumaDeEdades=0;
@@ -19,11 +20,11 @@ public class PromedioDeEstudiantes{
         edad[12]=16;
         edad[13]=13;
         edad[14]=15;
-        for(int i=0;i<15;i++){
+        for(int i=0;i<TOTAL_ESTUDIANTES;i++){
             sumaDeEdades=sumaDeEdades+edad[i];
 
         }
-        promedio=sumaDeEdades/15;
+        promedio=sumaDeEdades/TOTAL_ESTUDIANTES;
         System.out.println("El promedio de edades es: "+promedio);
         if(promedio>=EDAD_BASE){
             System.out.println("El promedio de edades de la clase es mayor o igual a 15");
