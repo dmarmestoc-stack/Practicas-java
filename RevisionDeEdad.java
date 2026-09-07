@@ -2,7 +2,7 @@ public class RevisionDeEdad{
     
     public static void main(String[] args){
        final int EDAD_LEGAL=18;
-       int edad=20;
+       int edad=17;
        if(edad>=EDAD_LEGAL){
         System.out.println("El estudiante es mayor de edad");
 
